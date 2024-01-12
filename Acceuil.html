@@ -1,65 +1,76 @@
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>Aceuil-Robbie Lens</title>
-        <link href="styles/main.css" rel="stylesheet">
-    </head>
-<body>
-    <header>
-        <img src="image/Logo.png" alt="logo_site">
+ <html lang="fr">
+ <head>
+    <meta charset="utf-8">
+    <title>Site_Robben Lens</title>
+    <link href="style.css" rel="stylesheet">
+ </head>
+
+ <body>
+
+    <header> 
+        <img src="image/Logo.png" alt="logo_robben-lens">
         <nav>
-            <a href="Acceuil_R">Acceuil</a>
-            <a href="A_propos">A_propos</a>
-            <a href="Tarif">Tarif</a>
-            <a href="Portfolio">Portfolio</a>
+            <div>
+                <a href="Acceuil.html">Acceuil</a>
+                <a href="A_propos.html">A_propos</a>
+                <a href="Portfolio.html">Portfolio</a>
+                <a href="Tarif.html">Tarif</a>
+            </div>
         </nav>
     </header>
 
-    <section>
-        <img src="image/Aceuil/photo.jpg" alt="Photo_Robben_lens">
-        <div>
-            <h1> Robbie Lens Photographie</h1>
-            <p>
-                Où professionalisme s’allie avec passion. 
-                Depuis plus de 5 ans maintenant,
-                 j’exerce mon métier avec la passion qui m’anime :
-                 capturer l’essence de chaque instant.
-            </p>
-            <div> UN PROJET ? ÉCRIVEZ-MOI</div>
-        </div>
-    </section>
-            
-    <section>
-        <h2>Mon dernier projet</h2>
-        <div>
-            <img src="image/Aceuil/Rectangle 29.jpg" alt="Image_1">
-            <img src="image/Aceuil/Rectangle 30.jpg" alt="Image_2">
-            <img src="image/Aceuil/Rectangle 31.jpg" alt="Image_3">
-            <img src="image/Aceuil/Rectangle 32.jpg" alt="Image_4">
-            <img src="image/Aceuil/Rectangle 33.jpg" alt="Image_5">
-            <img src="image/Aceuil/Rectangle 34.jpg" alt="Image_6">
-        </div>
-        <div> voir mon portfolio</div>
-    </section>
+    <main>
+        <section class="firstSection">
+            <img src="image/Aceuil/photo.jpg" alt="photo_robben-lens">
+            <div class="firstSection__contenu">
+                <h1> Robbie Lens Photographie</h1>
+                <p>
+                    Où <em>professionalisme</em> s’allie avec <em>passion</em> . 
+                    Depuis plus de 5 ans maintenant,
+                     j’exerce mon métier avec la passion qui m’anime :
+                     capturer l’essence de chaque instant.
+                </p>
+                <a href=""> Un projet? Contactez-nous</a>
+            </div>
+        </section>
+    
+        <section class="secondSection">
+            <h2>Mon dernier projet</h2>
+            <div>
+                <img src="image/Aceuil/Rectangle 29.jpg" alt="image-projet1">
+                <img src="image/Aceuil/Rectangle 30.jpg" alt="image-projet2">
+                <img src="image/Aceuil/Rectangle 31.jpg" alt="image-projet3">
+            </div>
+                 
+            <div>
+                <img src="image/Aceuil/Rectangle 32.jpg" alt="image-projet4">
+                <img src="image/Aceuil/Rectangle 33.jpg" alt="image-projet5">
+                <img src="image/Aceuil/Rectangle 34.jpg" alt="image-projet6">
+            </div>
+            <a href="Portfolio.html">Voir mon portfolio</a>
+        </section>
+    
+        <section class="thirdSection">
+            <h2>Parlons de votre projet</h2>
+            <form method="get" action="">
+               <label for="nom">Nom</label>:<input type="text" name="nom">
+               <label for="prenom">Prenom</label>:<input type="text" name="prenom">
+               <label for="message">Message</label>: <textarea name="message" id="message" ></textarea>
+               <input type="button" value="Envoyer">
 
-    <section>       
-        <form action="" method="get">
-            <p>Parlons de votre projet</p>
-            <label>Nom</label> :<input type="text" name="Nom">
-            <label>Prénom</label> :<input type="text" name="Prénom">
-            <label>Message</label> :<input type="texterea" name="Message">
-            <input type="button" value="Envoyer">
-        </form>
-    </section>
+            </form>
+
+        </section>
+    </main>
 
     <footer>
-        <img src="image/Logo.png" alt="logo_site">
+        <img src="image/Logo.png" alt="logo_robben-lens">
         <div>
-            <a href="image/instagram.png"></a>
-            <a href="image/twitter.pn"></a>
+            <a href="https://twitter.com/"> <img src="image/twitter.png" alt="twitter"></a>
+            <a href="https://www.instagram.com/"> <img src="image/instagram.png" alt="instagram"></a>
         </div>
     </footer>
-</body>
-
-</html>
+    
+ </body>
+ </html>
