@@ -1,0 +1,20 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+  
+}
+
+.navBar__logo {
+    margin-left: 20px;
+   
+}
+
+.navBar__link {
+    text-decoration: none;
+    color: var(__black);
+    margin: 50px;
+    color: var(--black);
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap');
+
+/*modules*/
+@import 'modules/navBar.css';
+@import 'modules/mediaBar.css';
+@import 'modules/photo.css';
+
+:root {
+    /* Colors*/
+    --dark_blue: #1F2039;
+    --sky_blue:  #A5B4FC;
+    --black: #242424;
+    --white:  #F9F8FF;
+   
+
+
+    /* test configuration */
+    --header-font: 'Manrope';
+    --title-font: 'Montserrat';
+    --body-font:'Manrope' ;
+    --body-highlight-font: 'Montserrat';
+   
+    
+
+    --header-font-weight: 400 ;  
+    --title-font-weight:400 ;
+    --body-font-weight:400 ;
+    --body-highlight-font-weight: 400 ;
+    
+
+    --header-font-size: 18px ;
+    --title-font-size: 55px ;
+    --body-font-size: 20px ;
+    --body-highlight-font-size: 35;
+   
+
+    --header-line-height: 24.59px; 
+    --title-line-height: 67.05 ;
+    --body-line-height: 27.32;
+    --body-highlight-line-height: 42.67 ;
+    
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--body-font-size);
+    font-weight: var(--body-font-weight);
+ 
+    font-style: normal;
+    color: var(--black);
+   
+    
+}
+
+main {
+    background-color: var(--dark_blue);
+}
+
+h1 {
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
+    font-weight: var(--title-font-weight);
+    
+    color: var(--black);
+}
+
+h2 {
+    font-family: var(--body-highlight-font);
+    font-size: var(--body-highlight-size);
+    font-weight: var(--body-highlight-weight);
+   
+    color: var(--black); 
+ }
